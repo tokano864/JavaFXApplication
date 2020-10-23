@@ -15,8 +15,6 @@ import javafx.stage.Stage;
 
 public class SplitBillApp extends Application {
 
-	public static String gakuban = "18EC025"; // 学籍番号を入力すること
-	public static String yourname = "岡野友美"; // 氏名を入力すること
 
 	Label lb1, lb2, lb3, lb4, lb5;
 	TextField tf1, tf2, tf3, tf4, tf5;

@@ -14,17 +14,15 @@ import javafx.stage.Stage;
 
 public class AddTaxApp extends Application {
 
-    public static String gakuban = "18EC025"; // 学籍番号を入力すること
-    public static String yourname = "岡野友美"; // 氏名を入力すること
 
     // 税込み価格を計算するラムダ式
     public static LongUnaryOperator addTax
-        // 課題3-1のコードを記述
+
     =(long price)->(long)(price*1.1)/10*10;
 
     @Override
     public void start(Stage primaryStage) {
-        // 課題3-2のコードを記述
+  
     	//ラベル、ボタン、テキストフィールドの作成
     	Label label=new Label("税抜き価格");
     	Button button=new Button("税込み価格に変換する");

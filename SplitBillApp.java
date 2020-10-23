@@ -1,4 +1,3 @@
-// Exercise 6: Split Bill Application
 package ex06;
 
 import javafx.application.Application;

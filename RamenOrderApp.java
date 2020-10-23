@@ -29,7 +29,7 @@ public class RamenOrderApp extends Application {
     // 追加: コーン、メンマ、味玉、チャーシュー
 
     public void setRadioButtons() {
-        // 課題7-1のコードを記述
+        
     	ToggleGroup group = new ToggleGroup();
         group.getToggles().addAll(rbSoupShio, rbSoupShoyu, rbSoupMiso);
         ToggleGroup group1 = new ToggleGroup();
@@ -41,7 +41,7 @@ public class RamenOrderApp extends Application {
     }
 
     public void calculation() {
-        // 課題7-2のコードを記述
+     
     	int price = 0;
     	
     	if(rbSoupShio.isSelected())

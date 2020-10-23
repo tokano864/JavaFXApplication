@@ -15,8 +15,6 @@ import javafx.stage.Stage;
 
 public class LocalDateApp extends Application {
 
-    public static String gakuban = "18EC025"; // 学籍番号を入力すること
-    public static String yourname = "岡野　友美"; // 氏名を入力すること
 
     LocalDate date = LocalDate.now();
     MenuBar menuBar = new MenuBar();
@@ -24,7 +22,7 @@ public class LocalDateApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        // 以下にコードを記入
+    
     	Menu menuFile = new Menu("ファイル");
     	MenuItem today = new MenuItem("今日");
     	today.setOnAction(e -> label.setText(LocalDate.now().toString()));

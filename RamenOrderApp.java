@@ -1,4 +1,4 @@
-// Exercise 7: Ramen Order Application
+
 package ex07;
 
 import javafx.application.Application;
@@ -19,8 +19,6 @@ import javafx.stage.Stage;
 
 public class RamenOrderApp extends Application {
 
-    public static String gakuban = "18EC000"; // 学籍番号を入力すること
-    public static String yourname = "千住旭"; // 氏名を入力すること
 
     Scene scene;
     TextField tfCalc;

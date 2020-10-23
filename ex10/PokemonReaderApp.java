@@ -22,8 +22,6 @@ import javafx.stage.Stage;
 
 public class PokemonReaderApp extends Application {
 
-    public static String gakuban = "18EC025"; // 学籍番号を入力すること
-    public static String yourname = "岡野友美"; // 氏名を入力すること
 
     Label label;
     ComboBox<String> combo;

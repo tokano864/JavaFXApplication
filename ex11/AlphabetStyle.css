@@ -1,0 +1,20 @@
+/*
+ * Exercise 11S: Style for Alphabet App
+ */
+
+.root {
+    -fx-font-size: 14pt;
+}
+
+/* 以下に課題11-1のコードを記述 */
+.button{
+	-fx-background-color:darkgreen;
+	-fx-background-radius:50;
+	-fx-font-family:serif;
+	-fx-text-fill:gold;
+	-fx-font-size:28pt;
+	-fx-font-weight:bold;
+}
+.button:hover{
+	-fx-background-color:green;
+}

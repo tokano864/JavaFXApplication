@@ -20,8 +20,6 @@ import javafx.stage.Stage;
 
 public class TicketMachine extends Application {
 
-    public static String gakuban = "18EC025"; // 学籍番号を入力すること
-    public static String yourname = "岡野　友美"; // 氏名を入力すること
     
 
     Scene scene;
